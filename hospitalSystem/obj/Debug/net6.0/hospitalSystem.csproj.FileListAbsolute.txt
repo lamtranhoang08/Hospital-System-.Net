@@ -1,0 +1,15 @@
+C:\Users\lamti\Downloads\hospitalSystem\bin\Debug\net6.0\credentials.txt
+C:\Users\lamti\Downloads\hospitalSystem\bin\Debug\net6.0\hospitalSystem.exe
+C:\Users\lamti\Downloads\hospitalSystem\bin\Debug\net6.0\hospitalSystem.deps.json
+C:\Users\lamti\Downloads\hospitalSystem\bin\Debug\net6.0\hospitalSystem.runtimeconfig.json
+C:\Users\lamti\Downloads\hospitalSystem\bin\Debug\net6.0\hospitalSystem.dll
+C:\Users\lamti\Downloads\hospitalSystem\bin\Debug\net6.0\hospitalSystem.pdb
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\hospitalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\hospitalSystem.AssemblyInfoInputs.cache
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\hospitalSystem.AssemblyInfo.cs
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\hospitalSystem.csproj.CoreCompileInputs.cache
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\hospitalSystem.dll
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\refint\hospitalSystem.dll
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\hospitalSystem.pdb
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\hospitalSystem.genruntimeconfig.cache
+C:\Users\lamti\Downloads\hospitalSystem\obj\Debug\net6.0\ref\hospitalSystem.dll
