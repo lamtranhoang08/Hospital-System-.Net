@@ -231,19 +231,18 @@ namespace hospitalSystem
                                  {
                                      File.AppendAllText(filePath, Environment.NewLine);
                                  }
+                    }
+                 // Append the new doctor data
+                 File.AppendAllText(filePath, doctorData + Environment.NewLine);
+                 Console.WriteLine($"{fullName} added to the system with password: {randomPassword}");
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Error writing to the file: " + ex.Message);
+                            }
+                
+                            Console.ReadKey();
             }
-
- // Append the new doctor data
- File.AppendAllText(filePath, doctorData + Environment.NewLine);
- Console.WriteLine($"{fullName} added to the system with password: {randomPassword}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error writing to the file: " + ex.Message);
-            }
-
-            Console.ReadKey();
-        }
 
         // Generate a random doctor ID
         private string generateNewDoctorID()
