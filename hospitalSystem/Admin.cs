@@ -220,8 +220,22 @@ namespace hospitalSystem
             {
                 string filePath = "credentials.txt";
                 string doctorData = $"{doctorID}|{randomPassword}|{fullName}|{address}|{email}|{phone}|doctor";
-                File.AppendAllText(filePath, doctorData + Environment.NewLine);
-                Console.WriteLine($"{fullName} added to the system with password: {randomPassword}");
+
+                 // Check if the file exists and if it ends with a newline
+                 if (File.Exists(filePath))
+                    {
+                         string fileContent = File.ReadAllText(filePath);
+
+                         // If the file does not end with a newline, add one before appending new data
+                         if (!fileContent.EndsWith(Environment.NewLine))
+                                 {
+                                     File.AppendAllText(filePath, Environment.NewLine);
+                                 }
+            }
+
+ // Append the new doctor data
+ File.AppendAllText(filePath, doctorData + Environment.NewLine);
+ Console.WriteLine($"{fullName} added to the system with password: {randomPassword}");
             }
             catch (Exception ex)
             {
@@ -272,9 +286,23 @@ namespace hospitalSystem
             try
             {
                 string filePath = "credentials.txt";
-                string patientData = $"{patientID}|{randomPassword}|{fullName}|{address}|{email}|{phone}|patient";
-                File.AppendAllText(filePath, patientData + Environment.NewLine);
-                Console.WriteLine($"{fullName} added to the system with password: {randomPassword}");
+                string doctorData = $"{patientID}|{randomPassword}|{fullName}|{address}|{email}|{phone}|patient";
+
+                 // Check if the file exists and if it ends with a newline
+                if (File.Exists(filePath))
+                     {
+                         string fileContent = File.ReadAllText(filePath);
+
+                         // If the file does not end with a newline, add one before appending new data
+                         if (!fileContent.EndsWith(Environment.NewLine))
+                     {
+                         File.AppendAllText(filePath, Environment.NewLine);
+                     }
+            }
+
+ // Append the new doctor data
+ File.AppendAllText(filePath, doctorData + Environment.NewLine);
+ Console.WriteLine($"{fullName} added to the system with password: {randomPassword}");
             }
             catch (Exception ex)
             {
